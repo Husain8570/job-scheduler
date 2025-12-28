@@ -1,4 +1,4 @@
-const API = "https://job-scheduler-backend-4mgf.onrender.com";
+const API = "https://job-scheduler-backend-4mgf.onrender.com/api";
 
 /* Jobs */
 export const createJob = (data) =>
