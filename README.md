@@ -406,6 +406,3 @@ curl http://localhost:3000/api/jobs/{jobId}/executions
 - [ ] Implement rate limiting on API endpoints
 - [ ] Add authentication/authorization for API access
 
-## License
-
-MIT
