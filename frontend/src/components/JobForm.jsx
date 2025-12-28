@@ -43,7 +43,7 @@ export default function JobForm({ jobId, clearSelection, onSaved }) {
       <h2>{isEditMode ? "Edit Job" : "Create Job"}</h2>
 
       <input
-        placeholder="Cron schedule (with seconds)"
+        placeholder="Cron schedule (with seconds) ex 0 */5 * * * *"
         value={schedule}
         onChange={e => setSchedule(e.target.value)}
       />
